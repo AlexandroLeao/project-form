@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "Antony",
+      "lastName": "Bread",
+      "email": "bread@gmail.com",
+      "dob": "1998-06-18T03:00:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "Google",
+      "experience": 4,
+      "package": 1500,
+      "id": 1
+    }
+  ]
+}
