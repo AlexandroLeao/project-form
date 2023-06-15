@@ -21,7 +21,7 @@ Follow the steps below to set up and run the CRUD-APP project:
 
 1. Clone this repository:
 
-https://github.com/AlexandroLeao/project-form.git
+- https://github.com/AlexandroLeao/project-form.git
 
 2. Navigate to the project folder:
 
