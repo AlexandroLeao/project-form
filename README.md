@@ -1,6 +1,81 @@
-# CrudApp
+# Project-Form
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+This is a sample project that demonstrates the creation of a CRUD (Create, Read, Update, Delete) application using Angular and Angular Material. The project also utilizes a JSON server as a mock API for handling data.
+
+## Prerequisites
+
+Before getting started, make sure you have the following prerequisites installed in your development environment:
+
+- Node.js: [Install Node.js](https://nodejs.org)
+- Angular CLI: Install the Angular CLI globally by running the following command in the terminal:
+
+npm install -g @angular/cli
+
+- JSON server: Install JSON server globally by running the following command in the terminal:
+
+npm install -g json-server
+
+## Installation
+
+Follow the steps below to set up and run the CRUD-APP project:
+
+1. Clone this repository:
+
+https://github.com/AlexandroLeao/project-form.git
+
+2. Navigate to the project folder:
+
+cd crud-app
+
+3. Install project dependencies:
+
+npm install
+
+4. Start the JSON server for the mock API:
+
+json-server --watch db.json
+
+5. In a separate terminal, start the development server for the CRUD-APP:
+
+ng serve
+
+
+6. Access the application in your browser through the following address: `http://localhost:4200/`
+
+## API
+
+The CRUD-APP uses a JSON server as a mock API to handle data. The server is set up to use the `db.json` file located in the project's root directory. You can modify this file to add, edit, or delete data.
+
+The API endpoints are as follows:
+
+- GET all employees: `http://localhost:3000/employees`
+- GET a specific employee: `http://localhost:3000/employees/{id}`
+- POST a new employee: `http://localhost:3000/employees`
+- PUT update an existing employee: `http://localhost:3000/employees/{id}`
+- DELETE an employee: `http://localhost:3000/employees/{id}`
+
+## Features
+
+The CRUD-APP has the following features:
+
+- Add Employee: Fill out the registration form to add a new employee.
+- Edit Employee: Click the "Edit" button to modify the data of an existing employee.
+- Delete Employee: Click the "Delete" button to remove an employee from the list.
+- Search Employee: Use the search bar to filter employees based on their name.
+
+## Technologies Used
+
+- Angular
+- Angular Material
+- JSON server
+
+## Contribution
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Development server
 
