@@ -64,49 +64,28 @@ The CRUD-APP has the following features:
 - Search Employee: Use the search bar to filter employees based on their name.
 
 ## Project Structure
-
-The project structure consists of the following files and directories:
-
-csharp
-Copy code
-crud-app/
-├── src/
-│   ├── app/
-│   │   ├── app-routing.module.ts
-│   │   ├── app.component.html
-│   │   ├── app.component.scss
-│   │   ├── app.component.spec.ts
-│   │   ├── app.component.ts
-│   │   └── app.module.ts
-│   ├── assets/
-│   │   └── index.html
-│   ├── main.ts
-│   └── styles.scss
-└── emp-add-edit/
-    ├── emp-add-edit.component.html
-    └── emp-add-edit.component.ts
     
--app-routing.module.ts: Manages the application routes.
+- app-routing.module.ts: Manages the application routes.
 
--app.component.html: Defines the structure of the application interface, including the toolbar, search column, and employee data table.
+- app.component.html: Defines the structure of the application interface, including the toolbar, search column, and employee data table.
 
--app.component.scss: Defines the style of the application.
+- app.component.scss: Defines the style of the application.
 
--app.component.spec.ts: Contains unit tests for the AppComponent component.
+- app.component.spec.ts: Contains unit tests for the AppComponent component.
 
--app.component.ts: Implements the logic for data manipulation and interaction with services.
+- app.component.ts: Implements the logic for data manipulation and interaction with services.
 
--app.module.ts: Defines the main module of the application, importing and configuring necessary modules.
+- app.module.ts: Defines the main module of the application, importing and configuring necessary modules.
 
--assets/: Contains additional files, such as index.html, defining the basic HTML structure of the application page.
+- assets/: Contains additional files, such as index.html, defining the basic HTML structure of the application page.
 
--main.ts: Initializes the application module.
+- main.ts: Initializes the application module.
 
--styles.scss: Defines global styles for the application.
+- styles.scss: Defines global styles for the application.
 
--emp-add-edit.component.html: Defines the structure of the employee registration and editing form.
+- emp-add-edit.component.html: Defines the structure of the employee registration and editing form.
 
--emp-add-edit.component.ts: Contains the logic for employee registration and editing.
+- emp-add-edit.component.ts: Contains the logic for employee registration and editing.
 
 ## Technologies Used
 
